@@ -3,15 +3,15 @@
 Production-ready multi-agent CI/CD self-healing platform with a React dashboard and Node/Express agent runtime.
 
 ## Live Deployment URL
-- Frontend: `ADD_FRONTEND_URL_HERE`
-- Backend: `ADD_BACKEND_URL_HERE`
+- Frontend: "https://rifthack.vercel.app/"
+- Backend: "https://rifthack.onrender.com"
 
 ## LinkedIn Demo URL
-- Public post tagging `@RIFT2026`: `ADD_LINKEDIN_VIDEO_URL_HERE`
+- Public post tagging :"https://www.linkedin.com/posts/nithin-katariya-v_rift2026-hackathon-innovation-activity-7430440142676381697-lo-I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFAKLncBdGsIHQRb_W204-NjFmyAiPfKCRU"
 
 ## Architecture Diagram
 - Add your architecture diagram image or link here.
-- Suggested path: `docs/architecture.png`
+- Suggested path: "https://drive.google.com/file/d/1nxHJuRlVRfwb5x8Ws1ef6cs5N3bzxP4x/view?usp=drivesdk"
 
 ## Problem Statement
 Autonomous DevOps agent that clones repositories, detects CI/CD failures, applies AI-assisted fixes, commits/pushes to a branch, and iterates until pass or retry limit.
@@ -183,9 +183,11 @@ The **main orchestrator** ([server/index.js](server/index.js)) implements a **se
 This architecture follows **distributed agent patterns** without requiring heavyweight frameworks like LangGraph. The orchestration is explicit and deterministic, ensuring reliable execution flow.
 
 ## Team Members
-- Team Name: `ADD_TEAM_NAME`
-- Team Leader: `ADD_LEADER_NAME`
-- Members: `ADD_MEMBER_LIST`
+- Team Name: 'Ctrl+alt+delete'
+- Team Leader:'NITHIN KATARIYA V'
+- Members: 1.'NITHIN KS'
+           2.'NIHAR JH'
+           3.'NARASIMHA'
 
 ## Tech Stack
 - Frontend: React 18, Vite, Tailwind CSS, Zustand
@@ -323,9 +325,9 @@ npm run dev:all
 Request body:
 ```json
 {
-  "githubUrl": "https://github.com/org/repo.git",
-  "teamName": "RIFT ORGANISERS",
-  "leaderName": "Saiyam Kumar",
+  "githubUrl": "https://github.com/Nithinks944/rifthack.git",
+  "teamName": "Ctrl+alt+delete",
+  "leaderName": "NITHIN KATARIYA V",
   "retryLimit": 5
 }
 ```
